@@ -1,0 +1,37 @@
+body{
+    background: linear-gradient(rgb(171, 211, 145)40%, rgb(126, 155, 204)50%);
+    text-align: center;
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+}
+h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: black 100px;
+}
+#camera{
+    width: 500px;
+    height: 400px;
+    border: linear-gradient(rgb(97, 97, 175) 30%, rgb(126, 207, 126) 40%);
+}
+img{
+    width:30%;
+    border-radius: 200px;
+    padding: 50px;
+    box-shadow: 0 6px 8px 0 rgba(2, 2, 2, 0.2);
+}
+.copy_rigth_footer{
+    background-color: gray;
+    position:fixed; 
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+img:hover{
+    border-radius: 140px;
+    box-shadow: 0 6px 8px 0 rgba(2, 2, 2, 0.2);
+}
+input{
+    visibility: hidden;
+}
